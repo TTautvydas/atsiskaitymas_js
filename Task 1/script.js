@@ -22,7 +22,6 @@ function formHandler(e) {
 }
 
 function weightConverter(weight) {
-    console.log('all g');
     const weightLb = Number(weight) * 2.2046;
     const weightG = Number(weight) / 0.0010000;
     const weightOz = Number(weight) * 35.274;
