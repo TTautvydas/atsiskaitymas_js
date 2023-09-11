@@ -1,0 +1,44 @@
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+/* Mobile first */
+.wrapper {
+  min-height: 100vh;
+  min-width: calc(100vw - (100vw - 100%));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h1 {
+  margin-top: 50px;
+  color: #333;
+}
+
+.output-card-style {
+  width: 400px;
+  margin: 20px 10px;
+  border-radius: 5px;
+  box-shadow: 2px 1px 3px 2px;
+  border-color: rgb(211, 211, 211);
+  background-color: #9e9c9c;
+}
+
+ul {
+  list-style: none;
+  color: white;
+  padding-left: 1rem;
+}
